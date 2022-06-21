@@ -18,6 +18,9 @@ import java.util.concurrent.TimeUnit;
 
 public class Driver {
 
+
+    // mvn test -Dcucumber.filter.tags=@wip
+
     static String browser;
 
     private Driver() {}
